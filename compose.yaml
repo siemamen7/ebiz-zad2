@@ -2,6 +2,6 @@ name: ebiz-zad2
 
 services:
   web:
-    build: .
+    image: szczuras7/ebiz-zad2
     ports:
       - "9000:9000"
